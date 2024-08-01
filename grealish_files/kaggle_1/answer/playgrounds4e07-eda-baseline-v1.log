@@ -1,0 +1,268 @@
+[{"stream_name":"stdout","time":13.580993012,"data":"---\u003e XGBoost = 2.0.3 | LightGBM = 4.2.0 | Catboost = 1.2.5\n"}
+,{"stream_name":"stdout","time":13.581127915,"data":"---\u003e Sklearn = 1.2.2| Pandas = 2.2.2\n"}
+,{"stream_name":"stdout","time":13.581141521,"data":"\n"}
+,{"stream_name":"stdout","time":13.581148642,"data":"\n"}
+,{"stream_name":"stdout","time":13.581154837,"data":"CPU times: user 2.61 s, sys: 663 ms, total: 3.27 s\n"}
+,{"stream_name":"stdout","time":13.581161111,"data":"Wall time: 4.82 s\n"}
+,{"stream_name":"stdout","time":14.007561729,"data":"\n"}
+,{"stream_name":"stdout","time":14.01096859,"data":"CPU times: user 272 ms, sys: 30 ms, total: 302 ms\n"}
+,{"stream_name":"stdout","time":14.01099729,"data":"Wall time: 382 ms\n"}
+,{"stream_name":"stdout","time":15.303017751,"data":"\n"}
+,{"stream_name":"stdout","time":15.30306509,"data":"CPU times: user 732 ms, sys: 92.4 ms, total: 824 ms\n"}
+,{"stream_name":"stdout","time":15.303073261,"data":"Wall time: 1.24 s\n"}
+,{"stream_name":"stdout","time":15.535344686,"data":"\n"}
+,{"stream_name":"stdout","time":15.535393455,"data":"CPU times: user 179 ms, sys: 601 µs, total: 180 ms\n"}
+,{"stream_name":"stdout","time":15.535403978,"data":"Wall time: 179 ms\n"}
+,{"stream_name":"stdout","time":15.814575796,"data":"\n"}
+,{"stream_name":"stdout","time":15.814644522,"data":"\u001b[1m\u001b[34m--\u003e Configuration done!\n"}
+,{"stream_name":"stdout","time":15.814655789,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":15.814662157,"data":"CPU times: user 129 ms, sys: 2.57 ms, total: 132 ms\n"}
+,{"stream_name":"stdout","time":15.814668959,"data":"Wall time: 130 ms\n"}
+,{"stream_name":"stdout","time":16.044871998,"data":"\n"}
+,{"stream_name":"stdout","time":16.044934404,"data":"CPU times: user 178 ms, sys: 0 ns, total: 178 ms\n"}
+,{"stream_name":"stdout","time":16.044942438,"data":"Wall time: 177 ms\n"}
+,{"stream_name":"stdout","time":16.418121687,"data":"CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs\n"}
+,{"stream_name":"stdout","time":16.418175408,"data":"Wall time: 8.82 µs\n"}
+,{"stream_name":"stdout","time":16.418184708,"data":"\n"}
+,{"stream_name":"stdout","time":63.888837614,"data":"\u001b[1m\u001b[34mData shapes - train-test-original | (11504798, 11) (7669866, 10) (381109, 11)\u001b[0m\n"}
+,{"stream_name":"stdout","time":63.944437492,"data":"\u001b[1m\u001b[36m\n"}
+,{"stream_name":"stdout","time":63.944507157,"data":"Train set head\u001b[0m\n"}
+,{"stream_name":"stdout","time":63.955598427,"data":"\u001b[1m\u001b[36m\n"}
+,{"stream_name":"stdout","time":63.955650203,"data":"Test set head\u001b[0m\n"}
+,{"stream_name":"stdout","time":63.966065156,"data":"\u001b[1m\u001b[36m\n"}
+,{"stream_name":"stdout","time":63.966115635,"data":"Original set head\u001b[0m\n"}
+,{"stream_name":"stdout","time":64.154411807,"data":"\u001b[1m\u001b[35m\n"}
+,{"stream_name":"stdout","time":64.154479458,"data":"-------------------- Information and description --------------------\n"}
+,{"stream_name":"stdout","time":64.154491246,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":64.154501632,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":64.154511789,"data":"Train description\n"}
+,{"stream_name":"stdout","time":64.154520505,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":68.163531269,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":68.163569164,"data":"Train information\n"}
+,{"stream_name":"stdout","time":68.163580253,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":68.163591861,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":68.16362401,"data":"Index: 11504798 entries, 0 to 11504797\n"}
+,{"stream_name":"stdout","time":68.163630616,"data":"Data columns (total 12 columns):\n"}
+,{"stream_name":"stdout","time":68.163637085,"data":" #   Column                Dtype  \n"}
+,{"stream_name":"stdout","time":68.163643004,"data":"---  ------                -----  \n"}
+,{"stream_name":"stdout","time":68.163649342,"data":" 0   Gender                object \n"}
+,{"stream_name":"stdout","time":68.163655482,"data":" 1   Age                   int64  \n"}
+,{"stream_name":"stdout","time":68.163666813,"data":" 2   Driving_License       int64  \n"}
+,{"stream_name":"stdout","time":68.163678159,"data":" 3   Region_Code           uint16 \n"}
+,{"stream_name":"stdout","time":68.163687373,"data":" 4   Previously_Insured    int64  \n"}
+,{"stream_name":"stdout","time":68.163695493,"data":" 5   Vehicle_Age           object \n"}
+,{"stream_name":"stdout","time":68.163710523,"data":" 6   Vehicle_Damage        object \n"}
+,{"stream_name":"stdout","time":68.163718145,"data":" 7   Annual_Premium        float64\n"}
+,{"stream_name":"stdout","time":68.163724463,"data":" 8   Policy_Sales_Channel  uint16 \n"}
+,{"stream_name":"stdout","time":68.163737252,"data":" 9   Vintage               int64  \n"}
+,{"stream_name":"stdout","time":68.163743513,"data":" 10  Response              int64  \n"}
+,{"stream_name":"stdout","time":68.163750186,"data":" 11  Source                object \n"}
+,{"stream_name":"stdout","time":68.163755989,"data":"dtypes: float64(1), int64(5), object(4), uint16(2)\n"}
+,{"stream_name":"stdout","time":68.163762919,"data":"memory usage: 1009.4+ MB\n"}
+,{"stream_name":"stdout","time":68.36495629,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":68.36501627,"data":"Test description\n"}
+,{"stream_name":"stdout","time":68.365025609,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":70.905632868,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":70.90569268,"data":"Test information\n"}
+,{"stream_name":"stdout","time":70.905700887,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":70.905708166,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":70.905714546,"data":"Index: 7669866 entries, 11504798 to 19174663\n"}
+,{"stream_name":"stdout","time":70.905720646,"data":"Data columns (total 11 columns):\n"}
+,{"stream_name":"stdout","time":70.905727931,"data":" #   Column                Dtype  \n"}
+,{"stream_name":"stdout","time":70.905734856,"data":"---  ------                -----  \n"}
+,{"stream_name":"stdout","time":70.905742255,"data":" 0   Gender                object \n"}
+,{"stream_name":"stdout","time":70.90574926,"data":" 1   Age                   int64  \n"}
+,{"stream_name":"stdout","time":70.905761073,"data":" 2   Driving_License       int64  \n"}
+,{"stream_name":"stdout","time":70.905768314,"data":" 3   Region_Code           uint16 \n"}
+,{"stream_name":"stdout","time":70.905774769,"data":" 4   Previously_Insured    int64  \n"}
+,{"stream_name":"stdout","time":70.905781472,"data":" 5   Vehicle_Age           object \n"}
+,{"stream_name":"stdout","time":70.905809649,"data":" 6   Vehicle_Damage        object \n"}
+,{"stream_name":"stdout","time":70.905818871,"data":" 7   Annual_Premium        float64\n"}
+,{"stream_name":"stdout","time":70.905825877,"data":" 8   Policy_Sales_Channel  uint16 \n"}
+,{"stream_name":"stdout","time":70.905832833,"data":" 9   Vintage               int64  \n"}
+,{"stream_name":"stdout","time":70.905839099,"data":" 10  Source                object \n"}
+,{"stream_name":"stdout","time":70.90587065,"data":"dtypes: float64(1), int64(4), object(4), uint16(2)\n"}
+,{"stream_name":"stdout","time":70.905882364,"data":"memory usage: 614.4+ MB\n"}
+,{"stream_name":"stdout","time":71.105484342,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":71.105561622,"data":"Original description\n"}
+,{"stream_name":"stdout","time":71.105569498,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":71.30497543,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":71.305045555,"data":"Original information\n"}
+,{"stream_name":"stdout","time":71.305053769,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":71.357585354,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":71.357619338,"data":"Index: 381109 entries, 1 to 381109\n"}
+,{"stream_name":"stdout","time":71.357624158,"data":"Data columns (total 12 columns):\n"}
+,{"stream_name":"stdout","time":71.357628858,"data":" #   Column                Non-Null Count   Dtype  \n"}
+,{"stream_name":"stdout","time":71.357632845,"data":"---  ------                --------------   -----  \n"}
+,{"stream_name":"stdout","time":71.357636684,"data":" 0   Gender                381109 non-null  object \n"}
+,{"stream_name":"stdout","time":71.357640643,"data":" 1   Age                   381109 non-null  int64  \n"}
+,{"stream_name":"stdout","time":71.357644705,"data":" 2   Driving_License       381109 non-null  int64  \n"}
+,{"stream_name":"stdout","time":71.357648882,"data":" 3   Region_Code           381109 non-null  uint16 \n"}
+,{"stream_name":"stdout","time":71.357652752,"data":" 4   Previously_Insured    381109 non-null  int64  \n"}
+,{"stream_name":"stdout","time":71.357656582,"data":" 5   Vehicle_Age           381109 non-null  object \n"}
+,{"stream_name":"stdout","time":71.357660627,"data":" 6   Vehicle_Damage        381109 non-null  object \n"}
+,{"stream_name":"stdout","time":71.357664459,"data":" 7   Annual_Premium        381109 non-null  float64\n"}
+,{"stream_name":"stdout","time":71.357668225,"data":" 8   Policy_Sales_Channel  381109 non-null  uint16 \n"}
+,{"stream_name":"stdout","time":71.357671981,"data":" 9   Vintage               381109 non-null  int64  \n"}
+,{"stream_name":"stdout","time":71.357676152,"data":" 10  Response              381109 non-null  int64  \n"}
+,{"stream_name":"stdout","time":71.357679946,"data":" 11  Source                381109 non-null  object \n"}
+,{"stream_name":"stdout","time":71.357683714,"data":"dtypes: float64(1), int64(5), object(4), uint16(2)\n"}
+,{"stream_name":"stdout","time":71.357687559,"data":"memory usage: 33.4+ MB\n"}
+,{"stream_name":"stdout","time":71.475254222,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":71.475294228,"data":"Unique and null values\n"}
+,{"stream_name":"stdout","time":71.475301715,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":92.991021519,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":92.991062292,"data":"\n"}
+,{"stream_name":"stdout","time":92.99107091,"data":"Train shape before conjoining with original = (11504798, 12)\u001b[0m\n"}
+,{"stream_name":"stdout","time":93.790463143,"data":"\u001b[1m\u001b[34mTrain shape after conjoining with original= (11885907, 12)\u001b[0m\n"}
+,{"stream_name":"stdout","time":98.790564452,"data":"\n"}
+,{"stream_name":"stdout","time":98.790639549,"data":"CPU times: user 1min 1s, sys: 11.2 s, total: 1min 12s\n"}
+,{"stream_name":"stdout","time":98.790646658,"data":"Wall time: 1min 22s\n"}
+,{"stream_name":"stdout","time":99.132051384,"data":"\n"}
+,{"stream_name":"stdout","time":99.143779689,"data":"CPU times: user 183 ms, sys: 1.1 ms, total: 184 ms\n"}
+,{"stream_name":"stdout","time":99.14382963,"data":"Wall time: 182 ms\n"}
+,{"stream_name":"stdout","time":136.00705602,"data":"\u001b[1m\u001b[34mData shapes - train-test-original | (11504798, 11) (7669866, 10) (381109, 11)\u001b[0m\n"}
+,{"stream_name":"stdout","time":136.008072711,"data":"\u001b[1m\u001b[36m\n"}
+,{"stream_name":"stdout","time":136.008090878,"data":"Train set head\u001b[0m\n"}
+,{"stream_name":"stdout","time":136.011071574,"data":"\u001b[1m\u001b[36m\n"}
+,{"stream_name":"stdout","time":136.011108832,"data":"Test set head\u001b[0m\n"}
+,{"stream_name":"stdout","time":136.014327159,"data":"\u001b[1m\u001b[36m\n"}
+,{"stream_name":"stdout","time":136.014371275,"data":"Original set head\u001b[0m\n"}
+,{"stream_name":"stdout","time":153.795204433,"data":"\n"}
+,{"stream_name":"stdout","time":153.795279897,"data":"\n"}
+,{"stream_name":"stdout","time":153.795290492,"data":"\n"}
+,{"stream_name":"stdout","time":153.795297211,"data":"\n"}
+,{"stream_name":"stdout","time":438.010429226,"data":"\n"}
+,{"stream_name":"stdout","time":438.010504767,"data":"\n"}
+,{"stream_name":"stdout","time":438.010513597,"data":"\n"}
+,{"stream_name":"stdout","time":438.010520054,"data":"\n"}
+,{"stream_name":"stdout","time":438.857265833,"data":"\n"}
+,{"stream_name":"stdout","time":438.857305485,"data":"\n"}
+,{"stream_name":"stdout","time":438.857311887,"data":"\n"}
+,{"stream_name":"stdout","time":438.857315914,"data":"\n"}
+,{"stream_name":"stdout","time":440.024836206,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":440.024871658,"data":"Skewness across independent features\n"}
+,{"stream_name":"stdout","time":440.024878958,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":440.601314192,"data":"\n"}
+,{"stream_name":"stdout","time":440.601368646,"data":"CPU times: user 5min 24s, sys: 22.9 s, total: 5min 47s\n"}
+,{"stream_name":"stdout","time":440.601376304,"data":"Wall time: 5min 41s\n"}
+,{"stream_name":"stdout","time":448.558998573,"data":"\n"}
+,{"stream_name":"stdout","time":462.464239958,"data":"CPU times: user 17.8 s, sys: 4.39 s, total: 22.2 s\n"}
+,{"stream_name":"stdout","time":462.46430172,"data":"Wall time: 21.7 s\n"}
+,{"stream_name":"stdout","time":470.450182732,"data":"CPU times: user 7.02 s, sys: 1.13 s, total: 8.15 s\n"}
+,{"stream_name":"stdout","time":470.45025996,"data":"Wall time: 7.91 s\n"}
+,{"stream_name":"stdout","time":480.052563656,"data":"\n"}
+,{"stream_name":"stdout","time":480.052633123,"data":"\n"}
+,{"stream_name":"stdout","time":480.052640729,"data":"\n"}
+,{"stream_name":"stdout","time":490.971998714,"data":"\u001b[1m\u001b[34mAnalysis of Policy_Sales_Channel across datasets\u001b[0m\n"}
+,{"stream_name":"stdout","time":490.97207118,"data":"in train but not in original - {5}\n"}
+,{"stream_name":"stdout","time":490.972079758,"data":"in train but not in test     - {33, 5, 6}\n"}
+,{"stream_name":"stdout","time":490.972086584,"data":"in original but not in train - {144, 84, 149, 143}\n"}
+,{"stream_name":"stdout","time":490.972093652,"data":"in original but not in test  - {33, 84, 6, 143}\n"}
+,{"stream_name":"stdout","time":490.97210039,"data":"in test but not in train     - {144, 149}\n"}
+,{"stream_name":"stdout","time":490.972106929,"data":"in test but not in original  - set()\n"}
+,{"stream_name":"stdout","time":490.972128191,"data":"\n"}
+,{"stream_name":"stdout","time":500.756925548,"data":"\u001b[1m\u001b[34mAnalysis of Vintage across datasets\u001b[0m\n"}
+,{"stream_name":"stdout","time":500.756998795,"data":"in train but not in original - set()\n"}
+,{"stream_name":"stdout","time":500.757039517,"data":"in train but not in test     - set()\n"}
+,{"stream_name":"stdout","time":500.757045783,"data":"in original but not in train - set()\n"}
+,{"stream_name":"stdout","time":500.757051591,"data":"in original but not in test  - set()\n"}
+,{"stream_name":"stdout","time":500.757057915,"data":"in test but not in train     - set()\n"}
+,{"stream_name":"stdout","time":500.757064259,"data":"in test but not in original  - set()\n"}
+,{"stream_name":"stdout","time":500.757070491,"data":"\n"}
+,{"stream_name":"stdout","time":509.60572767,"data":"\u001b[1m\u001b[34mAnalysis of Region_Code across datasets\u001b[0m\n"}
+,{"stream_name":"stdout","time":509.605837278,"data":"in train but not in original - set()\n"}
+,{"stream_name":"stdout","time":509.605853815,"data":"in train but not in test     - set()\n"}
+,{"stream_name":"stdout","time":509.605865875,"data":"in original but not in train - set()\n"}
+,{"stream_name":"stdout","time":509.605877082,"data":"in original but not in test  - set()\n"}
+,{"stream_name":"stdout","time":509.605890186,"data":"in test but not in train     - set()\n"}
+,{"stream_name":"stdout","time":509.605907805,"data":"in test but not in original  - set()\n"}
+,{"stream_name":"stdout","time":509.605919168,"data":"\n"}
+,{"stream_name":"stdout","time":517.231977199,"data":"\u001b[1m\u001b[34mAnalysis of Age across datasets\u001b[0m\n"}
+,{"stream_name":"stdout","time":517.232023344,"data":"in train but not in original - set()\n"}
+,{"stream_name":"stdout","time":517.232031904,"data":"in train but not in test     - set()\n"}
+,{"stream_name":"stdout","time":517.23203878,"data":"in original but not in train - set()\n"}
+,{"stream_name":"stdout","time":517.232045304,"data":"in original but not in test  - set()\n"}
+,{"stream_name":"stdout","time":517.232051953,"data":"in test but not in train     - set()\n"}
+,{"stream_name":"stdout","time":517.232057839,"data":"in test but not in original  - set()\n"}
+,{"stream_name":"stdout","time":517.232063128,"data":"\n"}
+,{"stream_name":"stdout","time":519.1848931,"data":"\n"}
+,{"stream_name":"stdout","time":519.192178217,"data":"CPU times: user 46.1 s, sys: 2.78 s, total: 48.8 s\n"}
+,{"stream_name":"stdout","time":519.192240811,"data":"Wall time: 48.7 s\n"}
+,{"stream_name":"stdout","time":519.345147366,"data":"CPU times: user 8 µs, sys: 0 ns, total: 8 µs\n"}
+,{"stream_name":"stdout","time":519.345192217,"data":"Wall time: 13.1 µs\n"}
+,{"stream_name":"stdout","time":528.528857054,"data":"CPU times: user 7.18 s, sys: 2.16 s, total: 9.35 s\n"}
+,{"stream_name":"stdout","time":528.528912785,"data":"Wall time: 9.09 s\n"}
+,{"stream_name":"stdout","time":534.816776439,"data":"CPU times: user 5.72 s, sys: 697 ms, total: 6.42 s\n"}
+,{"stream_name":"stdout","time":534.816855562,"data":"Wall time: 6.17 s\n"}
+,{"stream_name":"stdout","time":535.542396791,"data":"\n"}
+,{"stream_name":"stdout","time":535.542466461,"data":"CPU times: user 253 ms, sys: 1.01 ms, total: 254 ms\n"}
+,{"stream_name":"stdout","time":535.542476722,"data":"Wall time: 252 ms\n"}
+,{"stream_name":"stdout","time":535.848106725,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":535.848163924,"data":"==================== Data transformation ==================== \n"}
+,{"stream_name":"stdout","time":535.848174512,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":558.252255286,"data":"\u001b[1m\u001b[34mStart - end memory:- 872.82 - 283.39 Mb\u001b[0m\n"}
+,{"stream_name":"stdout","time":567.430074997,"data":"\u001b[1m\u001b[34mStart - end memory:- 621.74 - 241.38 Mb\u001b[0m\n"}
+,{"stream_name":"stdout","time":567.430147665,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":567.430157025,"data":"---\u003e Train data\n"}
+,{"stream_name":"stdout","time":567.43016618,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":567.435427475,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":567.435515886,"data":"---\u003e Test data\n"}
+,{"stream_name":"stdout","time":567.435524404,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":567.562221656,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":567.562273687,"data":"---\u003e Train data columns after data pipeline\n"}
+,{"stream_name":"stdout","time":567.562282836,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":567.562289106,"data":"array(['Gender', 'Age', 'Driving_License', 'Region_Code', 'Previously_Insured', 'Vehicle_Age', 'Vehicle_Damage', 'Annual_Premium', 'Policy_Sales_Channel',\n"}
+,{"stream_name":"stdout","time":567.562295394,"data":"       'Vintage', 'Source', 'Age_Group', 'Vintage_Group'], dtype=object)\n"}
+,{"stream_name":"stdout","time":567.562301158,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":567.562307123,"data":"---\u003e Test data columns after data pipeline\n"}
+,{"stream_name":"stdout","time":567.562312832,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":567.562318555,"data":"array(['Gender', 'Age', 'Driving_License', 'Region_Code', 'Previously_Insured', 'Vehicle_Age', 'Vehicle_Damage', 'Annual_Premium', 'Policy_Sales_Channel',\n"}
+,{"stream_name":"stdout","time":567.562325459,"data":"       'Vintage', 'Source', 'Age_Group', 'Vintage_Group'], dtype=object)\n"}
+,{"stream_name":"stdout","time":567.562333986,"data":"\u001b[1m\u001b[34m\n"}
+,{"stream_name":"stdout","time":567.562345883,"data":"---\u003e Train-test shape after pipeline = (11885907, 13) (7669866, 13)\u001b[0m\n"}
+,{"stream_name":"stdout","time":567.562355739,"data":"\n"}
+,{"stream_name":"stdout","time":567.562362165,"data":"CPU times: user 27.5 s, sys: 4.4 s, total: 31.9 s\n"}
+,{"stream_name":"stdout","time":567.562369083,"data":"Wall time: 31.9 s\n"}
+,{"stream_name":"stdout","time":567.967108952,"data":"\n"}
+,{"stream_name":"stdout","time":567.967173655,"data":"CPU times: user 148 ms, sys: 1.14 ms, total: 150 ms\n"}
+,{"stream_name":"stdout","time":567.967180574,"data":"Wall time: 147 ms\n"}
+,{"stream_name":"stdout","time":568.297629866,"data":"\n"}
+,{"stream_name":"stdout","time":568.315172215,"data":"CPU times: user 157 ms, sys: 1.89 ms, total: 159 ms\n"}
+,{"stream_name":"stdout","time":568.315232011,"data":"Wall time: 157 ms\n"}
+,{"stream_name":"stdout","time":568.681747254,"data":"\n"}
+,{"stream_name":"stdout","time":568.685178507,"data":"CPU times: user 228 ms, sys: 4.97 ms, total: 233 ms\n"}
+,{"stream_name":"stdout","time":568.685236812,"data":"Wall time: 227 ms\n"}
+,{"stream_name":"stdout","time":568.999516735,"data":"\n"}
+,{"stream_name":"stdout","time":568.999571666,"data":"CPU times: user 173 ms, sys: 2.03 ms, total: 175 ms\n"}
+,{"stream_name":"stdout","time":568.999580671,"data":"Wall time: 172 ms\n"}
+,{"stream_name":"stdout","time":569.13027346,"data":"CPU times: user 5 µs, sys: 0 ns, total: 5 µs\n"}
+,{"stream_name":"stdout","time":569.130319509,"data":"Wall time: 9.54 µs\n"}
+,{"stream_name":"stdout","time":569.48790401,"data":"\n"}
+,{"stream_name":"stdout","time":569.487962373,"data":"CPU times: user 219 ms, sys: 0 ns, total: 219 ms\n"}
+,{"stream_name":"stdout","time":569.48797175,"data":"Wall time: 219 ms\n"}
+,{"stream_name":"stdout","time":569.858661031,"data":"CPU times: user 7 µs, sys: 1e+03 ns, total: 8 µs\n"}
+,{"stream_name":"stdout","time":569.858727987,"data":"Wall time: 12.4 µs\n"}
+,{"stream_name":"stdout","time":608.537150068,"data":"\n"}
+,{"stream_name":"stdout","time":636.125370013,"data":"CPU times: user 48.2 s, sys: 11.3 s, total: 59.5 s\n"}
+,{"stream_name":"stdout","time":636.125441343,"data":"Wall time: 1min 6s\n"}
+,{"stream_name":"stderr","time":642.694678704,"data":"/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":642.694772515,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":642.701457448,"data":"[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.\n"}
+,{"stream_name":"stderr","time":642.745302782,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":643.477508419,"data":"[NbConvertApp] Writing 2443692 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":645.897437686,"data":"/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":645.89749928,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":645.902390201,"data":"[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.\n"}
+,{"stream_name":"stderr","time":645.950195842,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":647.748924354,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":647.748990622,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":647.749674267,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":647.750235669,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":647.750494955,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":647.750749297,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":647.751441018,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":647.751923699,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":647.753039478,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":647.754224459,"data":"[NbConvertApp] Writing 700573 bytes to __results__.html\n"}
+]
