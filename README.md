@@ -20,16 +20,48 @@ To run these notebooks, you need to have Python installed along with the require
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
 Clone the repository and navigate to the directory:
 
-'''bash
+```bash
 git clone https://github.com/NZHGREALISH/kaggle_grealish.git
 cd kaggle_grealish
+```
 
 Then, open the desired Jupyter notebook using JupyterLab or Jupyter Notebook:
 
-'''bash
+```bash
 jupyter notebook notebook_name.ipynb
+```
+
+## Notebooks
+
+- `Autogluon.ipynb`: Example using AutoGluon for model training and evaluation.
+- `Catboost-with-Hyperopt得分0.89610.ipynb`: Using CatBoost with Hyperopt for hyperparameter tuning.
+- `GeneralizationGamble.ipynb`: Exploring generalization techniques.
+- `xgboost_ryan_gpu.ipynb`: Implementation of XGBoost with GPU acceleration.
+- `lightautoml.ipynb`: Experiment with LightAutoML for model training.
+
+## Contributing
+
+Contributions are welcome! Please fork this repository and submit pull requests with your improvements.
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature-branch`)
+5. Open a pull request
+
+## Authors
+
+- [Ryan-Ren0330](https://github.com/Ryan-Ren0330)
+- [NZHGREALISH](https://github.com/NZHGREALISH)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
