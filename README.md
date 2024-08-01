@@ -1,6 +1,6 @@
 # Kaggle Grealish
 
-A collection of Jupyter notebooks and scripts for various machine learning experiments and competitions on Kaggle.
+A collection of Jupyter notebooks and scripts for kaggle competition Binary Classification of Insurance Cross Selling.
 
 ## Description
 
