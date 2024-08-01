@@ -20,3 +20,16 @@ To run these notebooks, you need to have Python installed along with the require
 
 ```bash
 pip install -r requirements.txt
+
+## Usage
+
+Clone the repository and navigate to the directory:
+
+'''bash
+git clone https://github.com/NZHGREALISH/kaggle_grealish.git
+cd kaggle_grealish
+
+Then, open the desired Jupyter notebook using JupyterLab or Jupyter Notebook:
+
+'''bash
+jupyter notebook notebook_name.ipynb
