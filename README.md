@@ -1,4 +1,4 @@
-# Kaggle Grealish
+# Binary Classification of Insurance Cross Selling
 
 A collection of Jupyter notebooks and scripts for kaggle competition Binary Classification of Insurance Cross Selling.
 
